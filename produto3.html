@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detalhes do Produto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #272727;
+            color: #fff;
+            text-align: center;
+            padding: 1px;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .produto-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-top: 20px;
+        }
+
+        .produto-imagem {
+            flex: 0 0 40%;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .produto-imagem img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px 10px 10px 10px;
+            -moz-border-radius: 10px 10px 10px 10px;
+            -webkit-border-radius: 10px 10px 10px 10px;
+            border: 2px solid #000000;
+        }
+
+        .produto-detalhes {
+            flex: 0 0 50%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .produto-nome {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .produto-descricao {
+            margin-top: 10px;
+        }
+
+        .produto-preco {
+            font-size: 18px;
+            margin: 10px;
+            font-weight: bold;
+        }
+
+        .botao-carrinho button {
+            padding: 10px 20px;
+            background-color: #000000;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-size: 17px;
+            border-radius: 10px 10px 10px 10px;
+            -moz-border-radius: 10px 10px 10px 10px;
+            -webkit-border-radius: 10px 10px 10px 10px;
+            border: 2px solid #000000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Detalhes do Produto</h1>
+    </header>
+    <div class="container">
+        <div class="produto-container">
+            <div class="produto-imagem">
+                <img src="image/camiseta3.jpg" alt="Camiseta 1">
+            </div>
+            <div class="produto-detalhes">
+                <div class="produto-nome">Camisa Juventus Away</div>
+                <div class="produto-descricao">
+                    <p><strong>CONFORTO DE OUTRA GALÁXIA PARA A TORCIDA DA JUVE</strong></p>
+                    <p>Estrelas e listras pegam a estrada. Os dois eternos símbolos dos jogos em casa entram em colisão nesta camisa 2 adidas da Juventus. O ousado design monocromático apresenta listras pretas formadas a partir de explosões estelares. Os painéis em mesh e o tecido AEROREADY antissuor mantêm o conforto dos fãs.</p>
+                    <p>Feito 100% de materiais reciclados, este produto representa apenas uma das nossas soluções para ajudar a acabar com os resíduos plásticos.</p>
+                </div>
+                <div class="produto-preco">
+                    Preço: R$199,00
+                </div>
+                <div class="botao-carrinho">
+                    <a href="carrinho.html"><button>Adicionar ao Carrinho</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

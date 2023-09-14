@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Carrinho de Compras</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #272727;
+            color: #fff;
+            text-align: center;
+            padding: 1px;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .item-carrinho {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .item-imagem {
+            flex: 0 0 40%;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .item-imagem img {
+            max-width: 35%;
+            height: auto;
+            border-radius: 10px 10px 10px 10px;
+            -moz-border-radius: 10px 10px 10px 10px;
+            -webkit-border-radius: 10px 10px 10px 10px;
+            border: 2px solid #000000;
+        }
+
+        .item-detalhes {
+            flex: 0 0 60%;
+            padding: 10px;
+            border-radius: 10px 10px 10px 10px;
+            -moz-border-radius: 10px 10px 10px 10px;
+            -webkit-border-radius: 10px 10px 10px 10px;
+            border: 2px solid #000000;
+        }
+
+        .produto-nome {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .quantidade-produto {
+            margin-top: 10px;
+        }
+
+        .produto-preco {
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        .finalizar-compra {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .finalizar-compra button {
+            padding: 10px 20px;
+            background-color: #000000;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-size: 18px;
+            border-radius: 10px 10px 10px 10px;
+            -moz-border-radius: 10px 10px 10px 10px;
+            -webkit-border-radius: 10px 10px 10px 10px;
+            border: 2px solid #000000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Carrinho de Compras</h1>
+    </header>
+    <div class="container">
+        <!-- Itens no carrinho (exemplo) -->
+        <div class="item-carrinho">
+            <div class="item-imagem">
+                <img src="image/camiseta1.jpg" alt="Camiseta 1">
+            </div>
+            <div class="item-detalhes">
+                <div class="produto-nome">Camisa Real Madrid Dragon</div>
+                <div class="quantidade-produto">
+                    <p>QTD: 1</p>
+                </div>
+                <div class="produto-preco">
+                    <p>Preço: R$199,00</p>
+                </div>
+            </div>
+        </div>
+        <div class="item-carrinho">
+            <div class="item-imagem">
+                <img src="image/camiseta2.jpg" alt="Camiseta 1">
+            </div>
+            <div class="item-detalhes">
+                <div class="produto-nome">Camisa Real Madrid Dragon</div>
+                <div class="quantidade-produto">
+                    <p>QTD: 1</p>
+                </div>
+                <div class="produto-preco">
+                    <p>Preço: R$199,00</p>
+                </div>
+            </div>
+        </div>
+        <div class="item-carrinho">
+            <div class="item-imagem">
+                <img src="image/camiseta3.jpg" alt="Camiseta 1">
+            </div>
+            <div class="item-detalhes">
+                <div class="produto-nome">Camisa Real Madrid Dragon</div>
+                <div class="quantidade-produto">
+                    <p>QTD: 1</p>
+                </div>
+                <div class="produto-preco">
+                    <p>Preço: R$199,00</p>
+                </div>
+            </div>
+        </div>
+        <div class="finalizar-compra">
+            <a href="finalizar.html"><button>Finalizar Compra</button></a>
+        </div>
+        </div>
+    </div>
+</html>

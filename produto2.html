@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detalhes do Produto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #272727;
+            color: #fff;
+            text-align: center;
+            padding: 1px;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .produto-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-top: 20px;
+        }
+
+        .produto-imagem {
+            flex: 0 0 40%;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .produto-imagem img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px 10px 10px 10px;
+            -moz-border-radius: 10px 10px 10px 10px;
+            -webkit-border-radius: 10px 10px 10px 10px;
+            border: 2px solid #000000;
+        }
+
+        .produto-detalhes {
+            flex: 0 0 50%;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        .produto-nome {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .produto-descricao {
+            margin-top: 10px;
+        }
+
+        .produto-preco {
+            font-size: 18px;
+            margin: 10px;
+            font-weight: bold;
+        }
+
+        .botao-carrinho button {
+            padding: 10px 20px;
+            background-color: #000000;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            font-size: 17px;
+            border-radius: 10px 10px 10px 10px;
+            -moz-border-radius: 10px 10px 10px 10px;
+            -webkit-border-radius: 10px 10px 10px 10px;
+            border: 2px solid #000000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Detalhes do Produto</h1>
+    </header>
+    <div class="container">
+        <div class="produto-container">
+            <div class="produto-imagem">
+                <img src="image/camiseta2.jpg" alt="Camiseta 1">
+            </div>
+            <div class="produto-detalhes">
+                <div class="produto-nome">Camisa PSG Home Torcedor</div>
+                <div class="produto-descricao">
+                    <p><strong>A inspiração do PSG 2023/24 Home vem do La Ville Lumiere (“Cidade da Luz”). A camisa predominantemente azul tem um gráfico vermelho descentralizado que se transforma em azul, imitando a maneira como as luzes icônicas de Paris desaparecem no céu noturno. O orgulho interior tem o nome do time, enquanto o orgulho exterior apresenta a bandeira francesa. A nossa coleção Stadium combina detalhes da camisa de réplica com tecnologia antissuor para oferecer um look pronto para o jogo e inspirado no seu time favorito</strong></p>
+                    <p>Tecnologia Nike Dri-FIT absorve o suor da sua pele para evaporação mais rápida, ajudando a manter você seco e confortável.
+                        O design de réplica apresenta detalhes baseados no que os craques usam.</p>
+                    
+                </div>
+                <div class="produto-preco">
+                    Preço: R$199,00
+                </div>
+                <div class="botao-carrinho">
+                    <a href="carrinho.html"><button>Adicionar ao Carrinho</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
