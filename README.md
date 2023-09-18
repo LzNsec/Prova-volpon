@@ -440,5 +440,3 @@ As explicações para as linhas comuns aos três códigos já foram fornecidas n
 - Fecha o elemento raiz `<html>`.
 
 ---
-
-Espero que esta explicação detalhada das linhas de código seja útil para você criar um arquivo README.md no GitHub. Se você tiver alguma dúvida adicional ou precisar de mais assistência, por favor, me avise!
